@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "Livro Relatórios"
+  author: "Lemuel de Lemos"
+  date: "03/02/2026"
+  downloads: [pdf, epub]
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - markdown.qmd
+    - references.qmd
+    
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: cover.png
+
+

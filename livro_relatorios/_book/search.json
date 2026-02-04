@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Livro Relatórios",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html",
+    "href": "markdown.html",
+    "title": "3  Capítulo Markdown",
+    "section": "",
+    "text": "4 Markdown: escrita simples para documentos reproduzíveis",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#introdução",
+    "href": "markdown.html#introdução",
+    "title": "3  Capítulo Markdown",
+    "section": "4.1 Introdução",
+    "text": "4.1 Introdução\nA produção de documentos técnicos, científicos e corporativos exige cada vez mais agilidade, padronização e reprodutibilidade. Nesse contexto, o Markdown surge como uma linguagem de marcação leve que permite ao autor concentrar-se no conteúdo, e não na formatação. Criado originalmente para facilitar a escrita de textos para a web, o Markdown rapidamente extrapolou esse propósito e hoje é amplamente utilizado na elaboração de relatórios, artigos acadêmicos, livros, documentação de software e apresentações.\nEste capítulo apresenta os fundamentos do Markdown, seus princípios de design, sua sintaxe essencial e os motivos pelos quais ele se tornou uma ferramenta central em fluxos modernos de produção de conhecimento.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#o-que-é-markdown",
+    "href": "markdown.html#o-que-é-markdown",
+    "title": "3  Capítulo Markdown",
+    "section": "4.2 O que é Markdown?",
+    "text": "4.2 O que é Markdown?\nMarkdown é uma linguagem de marcação leve (lightweight markup language) cujo objetivo principal é ser legível mesmo em sua forma bruta. Diferentemente de linguagens como HTML ou LaTeX, o texto em Markdown pode ser lido confortavelmente sem necessidade de renderização.\nA ideia central é simples: usar caracteres comuns do teclado para representar estruturas textuais como títulos, listas, ênfase e citações. A conversão para formatos finais — como HTML, PDF ou DOCX — é realizada por ferramentas de processamento (renderers), como Pandoc, Quarto ou GitHub Markdown.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#princípios-de-design",
+    "href": "markdown.html#princípios-de-design",
+    "title": "3  Capítulo Markdown",
+    "section": "4.3 Princípios de design",
+    "text": "4.3 Princípios de design\nO sucesso do Markdown está diretamente relacionado a três princípios fundamentais:\n\nLegibilidade: o texto deve ser compreensível mesmo antes da conversão.\nSimplicidade: a sintaxe deve ser mínima e intuitiva.\nPortabilidade: o mesmo arquivo pode ser convertido para múltiplos formatos finais.\n\nEsses princípios tornam o Markdown especialmente adequado para ambientes colaborativos e para projetos de longo prazo, nos quais a manutenção do conteúdo é tão importante quanto sua apresentação.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#estrutura-básica-de-um-documento-markdown",
+    "href": "markdown.html#estrutura-básica-de-um-documento-markdown",
+    "title": "3  Capítulo Markdown",
+    "section": "4.4 Estrutura básica de um documento Markdown",
+    "text": "4.4 Estrutura básica de um documento Markdown\nUm documento Markdown é, essencialmente, um arquivo de texto puro (.md). Ainda assim, ele permite representar estruturas complexas de forma elegante.\n\n4.4.1 Títulos e seções\nOs títulos são definidos pelo símbolo #, em níveis hierárquicos:\n# Título principal\n## Seção\n### Subseção\nEssa estrutura é fundamental para a organização lógica do texto e é automaticamente reconhecida por ferramentas de conversão, que geram sumários, navegação e hierarquia visual.\n\n\n\n4.4.2 Ênfase e destaque\nMarkdown permite destacar palavras ou trechos de forma simples:\n*itálico*  \n**negrito**  \n***negrito e itálico***\nEssa simplicidade incentiva o uso parcimonioso de ênfases, contribuindo para textos mais limpos e objetivos.\n\n\n\n4.4.3 Listas\nListas são elementos centrais em textos técnicos e podem ser ordenadas ou não ordenadas:\n- Item 1\n- Item 2\n  - Subitem\n\n1. Primeiro\n2. Segundo\nA indentação define a hierarquia, sem necessidade de comandos adicionais.\n\n\n\n4.4.4 Citações\nCitações em bloco são representadas pelo caractere &gt;:\n&gt; Markdown privilegia a escrita do conteúdo antes da forma.\nEsse recurso é amplamente utilizado em textos acadêmicos e relatórios para destacar definições, trechos normativos ou comentários analíticos.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#código-dados-e-reprodutibilidade",
+    "href": "markdown.html#código-dados-e-reprodutibilidade",
+    "title": "3  Capítulo Markdown",
+    "section": "4.5 Código, dados e reprodutibilidade",
+    "text": "4.5 Código, dados e reprodutibilidade\nUm dos maiores diferenciais do Markdown moderno é sua integração com código computacional. Blocos de código são definidos por três crases:\n```r\nsummary(modelo)\n```\nEm ferramentas como Quarto ou R Markdown, esses blocos podem ser executados automaticamente, inserindo resultados, tabelas e gráficos diretamente no documento final. Isso transforma o Markdown em um pilar da ciência reprodutível e da automação de relatórios.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#markdown-estendido-e-ecossistema",
+    "href": "markdown.html#markdown-estendido-e-ecossistema",
+    "title": "3  Capítulo Markdown",
+    "section": "4.6 Markdown estendido e ecossistema",
+    "text": "4.6 Markdown estendido e ecossistema\nEmbora o Markdown original seja propositalmente minimalista, diversas extensões foram desenvolvidas ao longo do tempo. Entre os recursos mais comuns estão:\n\nTabelas\nNotas de rodapé\nEquações em LaTeX\nReferências bibliográficas\nMetadados (YAML header)\n\nEsse ecossistema flexível permite que o Markdown seja utilizado tanto em textos simples quanto em documentos altamente sofisticados, como livros técnicos e relatórios institucionais.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#vantagens-do-markdown-em-projetos-de-longo-prazo",
+    "href": "markdown.html#vantagens-do-markdown-em-projetos-de-longo-prazo",
+    "title": "3  Capítulo Markdown",
+    "section": "4.7 Vantagens do Markdown em projetos de longo prazo",
+    "text": "4.7 Vantagens do Markdown em projetos de longo prazo\nDo ponto de vista prático, o Markdown oferece vantagens significativas:\n\nControle de versão: arquivos .md funcionam perfeitamente com Git.\nIndependência de software proprietário.\nFacilidade de colaboração.\nSeparação clara entre conteúdo e apresentação.\n\nEssas características tornam o Markdown especialmente atrativo para ambientes acadêmicos, órgãos públicos, equipes de análise de dados e organizações que valorizam transparência e longevidade documental.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "markdown.html#considerações-finais",
+    "href": "markdown.html#considerações-finais",
+    "title": "3  Capítulo Markdown",
+    "section": "4.8 Considerações finais",
+    "text": "4.8 Considerações finais\nMarkdown não é apenas uma linguagem de marcação; é uma filosofia de escrita. Ao reduzir o atrito entre pensamento e texto, ele permite que o autor foque naquilo que realmente importa: a clareza das ideias e a qualidade da análise. Em um mundo cada vez mais orientado à automação e à reprodutibilidade, dominar o Markdown deixou de ser um diferencial e passou a ser uma competência essencial.\nNos próximos capítulos, exploraremos como o Markdown se integra a ferramentas de publicação avançadas, ampliando ainda mais seu potencial na produção de conhecimento técnico e científico.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo Markdown</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
